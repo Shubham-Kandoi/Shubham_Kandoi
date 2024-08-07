@@ -1,0 +1,64 @@
+///////////////////////////////////////////////////////////////////////////
+                              Reflection
+                          Workshop - #3 (P2)
+Full Name  : Shubham Dharmendrabhai Kandoi
+Student ID#: 144838232
+Email      :  sdkandoi@myseneca.ca
+Section    : ZBB
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+
+A1. 
+I have created 13 variables :
+ const double GRAMS_IN_LBS = 453.5924;
+ char c1_Type;
+ char c2_Type;
+ char c3_Type;
+ int c1_Weight;
+ int c2_Weight;
+ int c3_Weight;
+ char c1_Cream;
+ char c2_Cream;
+ char c3_Cream;
+ char c_Strenght;
+ char c_Preference;
+ int daily_Servings;
+
+Its very important to organise several variables in code for some reasons :
+1. Giving well-organised variable name mkae the code more readable , also logical arrangements of variables help coders to read code and help to understand the usage of each variable.
+2.Organised variables can simplify code and process of solving issues and identifying the issues.
+3.At the time of updating or changing code, only variables which are organised makes it easier to understand and locate the relevant parts of code where codes need to be updated.
+
+A2.
+A) Relational expressions:
+1. c_Strenght == c1_Type  - This is an comparision expression which checks that wheter the value stored in the variable(c_Strenght) is equal to the value stored in the variable (c1_Type).
+2. c_Strenght == (c1_Type + ('a' - 'A')) - Checks if the coffee strength is equal to coffee 1 type 
+3. daily_Servings >= 1 - Checks if the daily servings are greater than or equal to 1.
+4. daily_Servings <= 4 - Checks if the daily servings are lesser than or equal to 1.
+5. c_Preference == 'Y and c_preference == 'y' -  checks if coffee preference is equal to 'Y' and equal to 'y'.
+6. c1_Cream == 'Y' and c1_Cream == 'y - checks for if  cream is served with coffee.
+7. c_Preference == 'N' and c_Preference == 'n' - checks for no cream preference.
+8. c1_Cream == 'N' and c1_Cream == 'n' - checks if coffee is not served with coffee.
+
+B) Logical expression :
+|| (OR) are used to combine multiple equation and && (AND) operator are used to 	ensure all condition are fullfilled;
+1.(c_Strenght == c1_Type || c_Strenght == (c1_Type + ('a' - 'A')) || c_Strenght + ('a' - 'A') == c1_Type)
+2.daily_Servings >= 1 && daily_Servings <= 4
+3. ((c_Preference == 'Y' || c_Preference == 'y') && (c1_Cream == 'Y' || c1_Cream == 'y')) || ((c_Preference == 'N' || c_Preference == 'n') && (c1_Cream == 'N' || c1_Cream == 'n'))
+
+A3.De morgan's law are used when coders are using logical operators. Basically, this law helps in reversing logical expression (example: all &&'s changed to ||'s and all ||'s to &&'s.)
+I have not used de morgan's law in workshop 2, however i have used it in workshop 1 : 
+example; 
+(p1_Id != p2_Id) && (p1_Id != p3_Id)
+(p2_Id != p1_Id) && (p2_Id != p3_Id)
+(p3_Id != p1_Id) && (p3_Id != p2_Id) 
+I have used this law because in the wrokshop 1 it was asked that p1 id should be unique, so for id to be uniqe ist should not be equal to p2 id and p3 id.  
+
+
+
+

@@ -1,0 +1,5 @@
+﻿  w2p1.c
+C:\Users\shubh\Downloads\IPC-Workshops-main (2)\IPC-Workshops-main\WS02\p1\w2p1.c(65,46): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\shubh\Downloads\IPC-Workshops-main (2)\IPC-Workshops-main\WS02\p1\w2p1.c(71,36): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\shubh\Downloads\IPC-Workshops-main (2)\IPC-Workshops-main\WS02\p1\w2p1.c(77,47): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  w2p1.vcxproj -> C:\Users\shubh\Downloads\IPC-Workshops-main (2)\IPC-Workshops-main\WS02\p1\x64\Debug\w2p1.exe
