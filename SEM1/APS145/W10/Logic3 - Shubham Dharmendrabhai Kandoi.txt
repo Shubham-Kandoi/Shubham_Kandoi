@@ -1,0 +1,76 @@
+Logic 3 : Shubham Dharmendrabhai Kandoi
+
+Data Structure:
+
+room_Length
+room_Width
+room_Height
+room_Area
+ceiling_Area
+num_Doors
+door_Area
+door_Length
+door_Width
+door_Area
+num_Windows
+window_Length
+window_Width
+window_Area
+net_Paintable_Area
+
+
+1) Start
+
+2)Prompt user to input the dimensions(room_Length,room_Width,room_Heigth) of the room in meters.
+
+3) Display:
+
+Room Length = (room_Length)
+Room Width = (room_Width)
+Room Height = (room_Height)
+
+4)Calculate the total area of the room (room_Area):
+room_Area = 2*(room_Length*room_Height) + 2*(room_Width*room_Height)
+
+5)Display:
+Total Area of the Room = (room_Area)
+
+6)Calculate Ceiling Area of the Room:
+ceiling_Area = room_Length * room_Width
+
+7)Prompt user to input the number of doors in the room (num_Doors)
+
+8)Prompt user to input door_Length and door_Height of the door.
+
+9) Calculate the Area of a door :
+	door_area = num_Doors * (door_Length * door_Width)
+
+10) Prompt user to enter the number of windows in the room.
+Number of windows = [num_Windows]
+
+11) Calculate the area of window :
+window_Area = num_Windows * (windows_Length * windows_Width)
+
+12)Display :
+Total Area of the room = [room_Area]
+Total Area of Cei;ing = [ceiling_Area]
+Total Area of Windows = [window_Area]
+Total Area of  Door = [door_Area]
+
+ 13) Is there any other room you want to paint?
+	
+	Yes: 
+	Repeat the process from the step #2
+	
+	No: 
+	Proceed to the next step
+
+14) Calculate the Total Paintable Area :
+net_Paintable_Area = room_Area + ceiling_Area - door_Area - window_Area
+
+15) Display : 
+Total Paintable Area = [net_Paintable_Area]
+
+16) End
+
+

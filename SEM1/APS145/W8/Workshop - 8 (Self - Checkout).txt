@@ -1,0 +1,67 @@
+Workshop - 8 (Self - Checkout)
+
+Pseudo Code 
+
+Data Structures: 
+
+#define TAX  0.13 // Macro Variable 
+item[n]
+receipt_Structure[n]
+itemPrice[n]
+np_Subtotal = 0.00 //Non Perisable Items Subtotal
+p_Subtotal = 0.00 // Perisable Items Subtotal
+subTotal = 0.00
+totalPrice = 0.00 
+total = 0.00
+
+Main Process:
+
+1. Start
+2. n=1
+3. Receive List of perishable and non-perishable items.
+4. Scan all the items.
+5. Check is item Non-perishable ?
+		-YES : 
+			np_subTotal +=  itemPrice[n]
+		-NO: 
+			p_Subtotoal += itemPrice[n]
+6. Is there any item left in list to scan?
+		-YES: 
+			# Go back to step 3
+		-NO:
+			Proceed to the next step
+7. subTotal = np_Subtotal + p_Subtotal
+tax = subTotal * TAX 	// subTotal * 0.13
+total = subTotal + tax
+8. Display : 
+		subTotal = [subtotal] 
+		tax = [tax]
+		Total = {subTotal + total]
+		
+9. Display: 
+		Please choose a Payment Option
+		- Credit Card 		- Debit Card 
+10. Which payment option does the user chose ?
+11. If user chose "Credit Card" 
+			YES :  
+				Call Payment Processor : BLACKBOX PROCESS
+12. If user chose "Debit Card"
+			Yes : 
+				Call Payment Processor : BLACKBOX PROCESS
+14. Check that was payment successful?
+ 			Yes: 
+				Display : Payment Successful
+			No
+			Display : 
+					"ERROR: PAYMENT CANCELLED"
+					#Go back to Step 1
+15. Do you wanna print receipt?
+			Yes: 
+				Call RECEIPT: SUB-PROCESS
+			No:
+				Display: Thank You For Shopping :)
+16. END
+
+RECEIPT : SUB-PROCESS
+
+1. START          
