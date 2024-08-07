@@ -1,0 +1,77 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #7
+Full Name  : Shubham Dharmendrabhai Kandoi
+Student ID#: 144838232
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+A1.
+a) Structure Definitions:
+
+#define maxLives 10
+#define minLives 1
+#define maxPathLength 70
+#define minPathLength 10
+#define multiples 5
+#define penalty 0.75 // bomb penalty
+
+struct playerInfo
+{
+    char symbol;
+    int lives;
+    int treasure[maxPathLength];
+    int history[maxPathLength];
+};
+
+struct gameInfo
+{
+    int maxMoves;
+    int pathLength;
+    int bombs[maxPathLength];
+    int treasure[maxPathLength];
+};
+
+b)Without using structures, we can declare seprate arrays and variables to store player and game information. This approach eliminates the uasage of structures, however this approach is more tedious because it requires more individual variable declaration and management.
+
+Revised Variable decalration :
+
+char playerSymbol;
+int playerLives;
+int playerTreasure[maxPathLength];
+int playerHistory[maxPathLength];
+
+int maxMoves;
+int pathLength;
+int gameBombs[maxPathLength];
+int gameTreasure[maxPathLength];
+int current_Position = 0;
+int move = 1;
+int total_Treasures = 0;
+int remaining_Moves = 0;
+
+A2.
+
+Parallel arrays :
+
+->player.treasure[] and player.history[], as well as game.bombs[] and game.treasure[] are the parallel arrays. These parallel arrays are directly related to player's progress and the game	 state.
+-> player.treasure[] stores the information regarding the treasures which is found by the player at the specific positions in the path and player.history[] stores the data regarding the movement history. Whereas, game.bombs[] stores information about bomb placement and game.treasure[] stores the location of treasures.
+-> The relationship between these arrays are very important to the game as the player.treasure[] and player.history[] arrays are used to keep track of the player's progress and make sure that the player doesn't revisit the same position again.While, dame.bombs[] and game.treasure[] arrays store the location of different bomb and treasures.
+-> It allows us to track different attributes of the player and the game path efficienty. It simplifies data management and operations.
+
+A3.
+Line Number = 228
+if (game.bombs[current_Position] == 1 && game.treasure[current_Position] == 1 && player.history[current_Position] == 1)
+
+Within the while loop, the program checks the current position of the player for the outcome of their  move.
+
+In this deepest nested if statement checks three conditon:
+1) game.bombs[current_Position] == 1 ; This checks that if there is a bomb in current position of the player and if its true player has encountered a bomb.
+2) game.treasure[current_Position] == 1; This checks that if there is a treasure in the current position of player and if it is true, it states that the player has found treasure.
+3)player.history[current_Position] == 1; This condition ensures that player has not already come to the same position again.
+
+->If all the condition met than this will triggers the execution of the  block of code within if statement, which will update the player's lives, the total treasure found and outcome of their move
