@@ -1,0 +1,29 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #5
+Full Name: Shubham Dharmendrabhai Kandoi
+Student ID#: 144838232
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+A1.
+Yes, it is possible to use "for" loop to validate the rating values entered by the user with a break statement to exit the loop when valid input is received, but it will not be the right choice to use "for" loop in this case because for loops are used in case where the number of iterations are fixed , however in this case it requires a loop to continue until the condition is met and it will not be the common approach for this kind of task. Therefore, "while" and "do-while" loop is the best choice rather than using "for" loop because the do-while loop allow us to execute the code at least once.
+
+A2.
+We can print the month by two different selection constructs: 
+1.Switch 
+2.If-else  
+I used switch case because of several reasons:
+a. In this task we have to deal with multiple condition so to use switch-case statements are more approachable because it enhances the readability of the code as it makes the code more concise and easier to understand.
+b. Switch case can be easier to maintain compared to long chain of if-else statements, when to modify case because in switch statements each case is defined which make it easier to locate and to modify particular case.
+
+A3. Three advantages are:
+1. Using variable and macros like (MIN_YEAR, MAX_YEAR, and LOG_DAYS) make the code easier to debug. To exemplify, using a variable or macro with an understanding name makes it clear and help to catch errors, instead of a magic number.
+2.Maintainability: It is easier to find and update value if we use a variable or macro to store information however if we use a magic number, it may be time-consuming to update all instances.
+3.Easy to read: It becomes more easy to read and understand the code rather than trying to adding a magic number in code because coders can quickly understand and grasp the variable or macro.
+For example: It would be more readable to define macro such as "#define LOG_DAYS 3" because for developers can understand easily instead of hardcoding the number of days in a log (e.g., for (int i = 0; i < 3; i++))
+
