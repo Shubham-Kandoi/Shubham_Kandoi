@@ -1,0 +1,29 @@
+﻿  w2p2.c
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(80,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(86,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(92,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(120,24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(124,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(128,24): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(129,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(132,21): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(133,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(136,23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(137,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(140,23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(141,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(162,24): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(163,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(166,21): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(167,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(170,23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(171,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(174,23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(175,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(79,30): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(81,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(85,30): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(87,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(91,30): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\w2p2.c(93,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  w2p2.vcxproj -> C:\Users\shubh\Desktop\IPC 144\Workshops\WS2\p2\x64\Debug\w2p2.exe
